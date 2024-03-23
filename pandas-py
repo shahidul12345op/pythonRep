@@ -1,0 +1,5 @@
+import pandas as pd
+name=['shahidul','rafi','emon','rabib','jidan']
+age =[22,21,22,21,22]
+df=pd.DataFrame(list(zip(name,age)),columns=['name','age'])
+print(df)
